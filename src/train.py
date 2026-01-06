@@ -10,4 +10,4 @@ model = LogisticRegression()
 model.fit(X, y)
 
 joblib.dump(model, "model.joblib")
-print("Model trained and saved."
+print("Model trained and saved.")
